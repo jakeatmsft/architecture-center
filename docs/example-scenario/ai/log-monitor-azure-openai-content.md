@@ -47,10 +47,12 @@ The following table provides a comparison of the metrics provided by the default
 |Caller IP address	|x (last octet masked)|	x|
 |Model utilization	||	x|
 |Token utilization (input/output)	||	x|
-|Input prompt detail	||	x|
-|Output completion detail||		x|
+|Input prompt detail	||	x (limited to 8,192 response characters)|
+|Output completion detail||		x (limited to 8,192 response characters)|
 |Deployment operations	|x	|x|
 |Embedding operations	|x|	x (limited to 8,192 response characters)|
+
+
 
 ## Scenario details
 
